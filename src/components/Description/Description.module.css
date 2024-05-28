@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+}
+.title {
+  color: #8fc1a9;
+}
+.text {
+  color: #444444;
+}

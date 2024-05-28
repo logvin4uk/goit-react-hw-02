@@ -1,0 +1,7 @@
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #444444;
+  margin: 0 auto;
+}

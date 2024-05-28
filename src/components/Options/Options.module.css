@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Основні стилі для кнопок */
+.btn {
+  background-color: #ffc4a3; /* Пастельний помаранчевий */
+  color: #444444; /* Білий текст на кнопці */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Ефект при наведенні */
+.btn:hover {
+  background-color: #ffab84; /* Трохи темніший пастельний помаранчевий для ховера */
+  border-color: #ff8c69; /* Трохи темніший колір для обрамлення при hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легка тінь при hover */
+}
+
+/* Ефект при натисканні */
+.btn:active {
+  background-color: #e5947a; /* Трохи темніший для стану active */
+  border-color: #e67c56; /* Темніший колір для обрамлення при active */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Тінь при active */
+}
